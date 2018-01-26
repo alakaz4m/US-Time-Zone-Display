@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<script src="moment.js"></script>
+<script src="moment-timezone-with-data.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
+<div id="content">
+  <h3 class="md-display-3">US Time Zone Display</h3>
+  <h2 class="md-headline">{{today}} <br></h2>
+  <div class="buttons">
+    <button type="button" id="PST" (click)="onClick('America/Los_Angeles', 'PST')" class="md-button" disabled>PST</button>
+    <button type="button" id="MST" (click)="onClick('America/Phoenix', 'MST')" class="md-button">MST</button>
+    <button type="button" id="CST" (click)="onClick('America/Chicago', 'CST')" class="md-button">CST</button>
+    <button type="button" id="EST" (click)="onClick('EST', 'EST')" class="md-button">EST</button>
+  </div>
+</div>

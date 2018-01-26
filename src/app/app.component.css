@@ -1,0 +1,59 @@
+#content {
+  width: auto;
+  text-align: center;
+}
+
+.md-headline{
+  font-weight: bold;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+  padding-top: 10px;
+  background-color: black;
+  display: block;
+  height: 40px;
+  width: 20%;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.buttons {
+  radius: 1px;
+  padding-top: 15px;
+  height: 60px;
+  display: inline-block;
+  background-color: lightgrey;
+}
+
+.md-button {
+  color : currentColor;
+}
+
+
+
+.md-button:not([disabled]):hover {
+  background-color: black;
+  color: white;
+  /*  rgba(158, 158, 158, 0.2)*/
+}
+
+.md-button[disabled] {
+  color : white;
+  background-color: rgba(0, 0, 0, 0.26);
+}
+
+.md-display-3{
+  color: white;
+  background-color: black;
+  display: inline-block;
+  height: 60px;
+  margin-bottom: 1px;
+}
+
+.md-display-3:not([disabled]):hover {
+  color: black;
+  background-color: white;
+}
