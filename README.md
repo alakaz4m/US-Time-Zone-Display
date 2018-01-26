@@ -1,4 +1,4 @@
-![alt text](https://imgur.com/a/L4XQ6)
+![alt text](https://i.imgur.com/9z0Jexr.png)
 
 # TimeZone
 
